@@ -14,5 +14,5 @@ jobs:
       with:
         ACCESS_TOKEN: ${{ secrets.todolist }}        
         BASE_BRANCH: dev # The branch the action should deploy from.
-        BRANCH: dev # The branch the action should deploy to.
+        BRANCH: master # The branch the action should deploy to.
         FOLDER: build # The folder the action should deploy.
