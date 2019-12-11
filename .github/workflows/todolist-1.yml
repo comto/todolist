@@ -15,5 +15,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.hello }}
         BASE_BRANCH: dev # The branch the action should deploy from.
         BRANCH: master # The branch the action should deploy to.
-        FOLDER: build # The folder the action should deploy.
+        FOLDER: . # The folder the action should deploy.
         BUILD_SCRIPT: npm install && npm run build
